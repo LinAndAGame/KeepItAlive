@@ -20,13 +20,8 @@ namespace MyGameGlobal {
         /// 前往下一个游戏状态
         /// </summary>
         /// <returns></returns>
-        public static ENUM_GamePhase TurnToNextGamePhase(ENUM_GamePhase gamePhase) {
-            if (s_GamePhase<gamePhase) {
-                s_GamePhase = gamePhase;
-            }
-            else {
-                Debug.LogWarning("不可以向前切换游戏状态。");
-            }
+        public static ENUM_GamePhase ChangeGamePhare(ENUM_GamePhase gamePhase) {
+            s_GamePhase = gamePhase;
             return s_GamePhase;
         }
 
@@ -45,14 +40,20 @@ namespace MyGameGlobal {
         Introduce,          //介绍
         Play,               //游玩
         Settlement,         //结算
+        Talking,            //与NPC对话
     } 
 
     public enum ENUM_Enemy {
         blue,
         green,
-        yellow,
         red,
         boss
+    }
+
+    public enum ENUM_ItemType {
+        Food,
+        Intection,
+        Data,
     }
     #endregion
 }

@@ -3,9 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using UnityEngine.UI;
+using MyGameKernel;
+using MyGameGlobal;
 
 namespace DefaultNameSpace {
     public class PlayerValue : MonoBehaviour {
+        private enum ENUM_PlayerStatus {
+            Alive,
+            Death,
+            LifeThreaten
+        }
+
         public Slider m_SldHP = null;
         public Slider m_SldRP = null;
         public Text m_TxtHP = null;
@@ -19,7 +27,9 @@ namespace DefaultNameSpace {
         private int m_PlayerHP = 0;           //HealthPoint(血量)
         private int m_PlayerRP = 0;           //ResistancePoint(抵抗值)
 
-        private float m_Timer = 0;
+        private float m_Timer = 0;            //DecreaseRPTimer
+        private float m_TimerGossip = 0;
+        private ENUM_PlayerStatus m_PlayerStatus = ENUM_PlayerStatus.Alive;
 
         public int PlayerHP {
             get => m_PlayerHP;
@@ -45,11 +55,30 @@ namespace DefaultNameSpace {
         }
 
         private void Update() {
-            m_Timer += Time.deltaTime;
-            if (m_Timer >= 0.5f) {
-                DecreaseRP(1);
-                m_Timer = 0;
+            if (GlobalValue.GetCurrentGamePhase() == ENUM_GamePhase.Play) {
+                if (Input.GetKeyDown(KeyCode.R)) {
+                    if (PlayerInfo.Intection > 0) {
+                        --PlayerInfo.Intection;
+                        IncreaseRP(30);
+                    }
+                }
+
+
+                m_Timer += Time.deltaTime;
+                m_TimerGossip += Time.deltaTime;
+                if (m_Timer >= 0.5f) {
+                    DecreaseRP(1);
+                    m_Timer = 0;
+                }
+                if (m_TimerGossip>=6) {
+                    UITool.CreateGossipUI(ENUM_GossipType.DecreaseRP, PlayerRP);
+                    m_TimerGossip = 0;
+                }
             }
+        }
+
+        public void ResetTimerGossip() {
+            m_TimerGossip = 0;
         }
 
         /// <summary>
@@ -57,6 +86,9 @@ namespace DefaultNameSpace {
         /// </summary>
         /// <param name="value"></param>
         public void IncreaseHP(int value) {
+            //创建一个加血UI
+            UITool.CreateValueText(this.transform, value,false);
+
             if (PlayerHP + value > c_MaxHP) {
                 PlayerHP = c_MaxHP;
             }
@@ -69,9 +101,16 @@ namespace DefaultNameSpace {
         /// 减血
         /// </summary>
         public void DecreaseHP(int value) {
+            //如果进入危及状态就减少受到的伤害
+            if (m_PlayerStatus==ENUM_PlayerStatus.LifeThreaten) {
+                value /= 2;
+            }
+            //创建一个减血UI
+            UITool.CreateValueText(this.transform, value);
+
             if (PlayerHP - value < c_MinHP) {
                 PlayerHP = c_MinHP;
-                Debug.Log("Player Dead");
+                GlobalValue.ChangeGamePhare(ENUM_GamePhase.Settlement);
             }
             else {
                 PlayerHP -= value;
@@ -103,7 +142,7 @@ namespace DefaultNameSpace {
                 }
             }
             else {
-                DecreaseHP(value);
+                DecreaseHP(1);
             }
         }
     }

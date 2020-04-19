@@ -294,3 +294,4 @@ E:\UnityWorks\自己制作的作品\2D\KeepItAlive\KeepItAlive\Temp\bin\Debug\Un
 E:\UnityWorks\自己制作的作品\2D\KeepItAlive\KeepItAlive\Temp\bin\Debug\Unity.ShaderGraph.Editor.pdb
 E:\UnityWorks\自己制作的作品\2D\KeepItAlive\KeepItAlive\Temp\bin\Debug\Unity.RenderPipelines.Core.ShaderLibrary.pdb
 E:\UnityWorks\自己制作的作品\2D\KeepItAlive\KeepItAlive\Temp\bin\Debug\Unity.ShaderGraph.Utilities.pdb
+E:\UnityWorks\自己制作的作品\2D\KeepItAlive\KeepItAlive\Temp\bin\Debug\LitJson.dll

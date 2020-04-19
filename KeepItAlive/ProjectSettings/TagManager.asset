@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Buttel
   layers:
   - Default
   - TransparentFX
@@ -41,11 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 2217135077
+    locked: 0
+  - name: Door
+    uniqueID: 4205492269
+    locked: 0
   - name: TileMap
     uniqueID: 4290959741
     locked: 0
   - name: SceneItem
     uniqueID: 4099520207
+    locked: 0
+  - name: Scientist
+    uniqueID: 3142764627
     locked: 0
   - name: Enemy
     uniqueID: 329732809
@@ -55,4 +65,7 @@ TagManager:
     locked: 0
   - name: ParticleSystem
     uniqueID: 827233891
+    locked: 0
+  - name: DialogUI
+    uniqueID: 2684002461
     locked: 0

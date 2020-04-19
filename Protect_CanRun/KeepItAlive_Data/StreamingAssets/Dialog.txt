@@ -1,0 +1,49 @@
+[{
+	"DialogType": "Introduce_Start",
+	"Speaker": "Interphone",
+	"Content": "Agent,you 're in an area that's infected with a virus,and your resistance is gradually diminishing.Move,find the data and bring it out!"
+}, {
+	"DialogType": "Introduce_Start",
+	"Speaker": "Player",
+	"Content": "Yes sir!"
+}, {
+	"DialogType": "PlayerTrigger_A",
+	"Speaker": "Player",
+	"Content": "Do you kown where data is?"
+}, {
+	"DialogType": "PlayerTrigger_A",
+	"Speaker": "Scientist_A",
+	"Content": "I dont kown,but i think you need some injection. "
+},{
+	"DialogType": "PlayerTrigger_A",
+	"Speaker": "Scientist_A",
+	"Content": "And i am so hungry,give me some food."
+},{
+	"DialogType": "PlayerTrigger_A",
+	"Speaker": "Scientist_A",
+	"Content": "I will tell you where the injection is."
+},{
+	"DialogType": "PlayerTrigger_B",
+	"Speaker": "Player",
+	"Content": "Do you kown where data is?"
+},{
+	"DialogType": "PlayerTrigger_B",
+	"Speaker": "Scientist_B",
+	"Content": "Yes,I Know."
+},{
+	"DialogType": "PlayerTrigger_B",
+	"Speaker": "Scientist_B",
+	"Content": "But,First,You need give me some injection."
+},{
+	"DialogType": "PlayerTrigger_B",
+	"Speaker": "Scientist_B",
+	"Content": "Then,I will give you AchievesRoomCard "
+},{
+	"DialogType": "Introduce_End",
+	"Speaker": "Interphone",
+	"Content": "Well done, agent, but it's too late to celebrate. You have another mission."
+},{
+	"DialogType": "Introduce_End",
+	"Speaker": "Player",
+	"Content": "All right, all right, can't you just give me a break?"
+}]

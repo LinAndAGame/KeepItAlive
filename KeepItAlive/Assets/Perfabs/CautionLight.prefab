@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.56
+  m_FalloffIntensity: 0.17
   m_Color: {r: 0.8679245, g: 0.023786642, b: 0, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0.19
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 180
   m_PointLightOuterAngle: 180
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 4.99
+  m_PointLightOuterRadius: 7.93
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -82,6 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8859241699349597060}
   - component: {fileID: 6084030478073094011}
+  - component: {fileID: -2324234259940240829}
   m_Layer: 0
   m_Name: CautionLight
   m_TagString: Untagged
@@ -141,7 +142,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -195447089
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -8905050672801562329, guid: 5fddeff3f47c7854eb684a37a453ed54,
     type: 3}
@@ -155,3 +156,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2324234259940240829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548102675253773374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193a0870822f9b24ca80deaa3068c7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

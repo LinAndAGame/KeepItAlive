@@ -16,7 +16,9 @@ namespace DefaultNameSpace {
         
         private void Update(){
             GetDirToTarget();
-            m_Rigid2D.MovePosition(this.transform.position + m_DirToTarget * m_Speed * Time.deltaTime);
+            if (m_Rigid2D!=null) {
+                m_Rigid2D.MovePosition(this.transform.position + m_DirToTarget * m_Speed * Time.deltaTime); 
+            }
         }
 
         private void GetDirToTarget() {
