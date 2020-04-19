@@ -5,7 +5,7 @@
 }, {
 	"DialogType": "Introduce_Start",
 	"Speaker": "Player",
-	"Content": "Yes sir!"
+	"Content": "Yes sir!Input  R ,I will use intection to increaseRP"
 }, {
 	"DialogType": "PlayerTrigger_A",
 	"Speaker": "Player",
