@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 111672948}
   m_Layer: 8
   m_Name: MinimapUI_Scientist_B
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -932,7 +932,7 @@ GameObject:
   - component: {fileID: 114583875}
   m_Layer: 0
   m_Name: Data
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 195809330}
   m_Layer: 0
   m_Name: Point Light 2D
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1392,6 +1392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intection (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
 --- !u!1001 &234721261
@@ -1505,7 +1510,7 @@ GameObject:
   - component: {fileID: 245481090}
   m_Layer: 8
   m_Name: MinimapUI_Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2155,7 +2160,7 @@ GameObject:
   - component: {fileID: 374819144}
   m_Layer: 0
   m_Name: CreateEnemy (1)
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2244,7 +2249,7 @@ GameObject:
   - component: {fileID: 382123759}
   m_Layer: 0
   m_Name: Scientist_A
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2601,7 +2606,7 @@ GameObject:
   - component: {fileID: 423150484}
   m_Layer: 0
   m_Name: Food
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2843,6 +2848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Intection (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
@@ -3811,7 +3821,7 @@ GameObject:
   - component: {fileID: 656130772}
   m_Layer: 0
   m_Name: CreateEnemy (5)
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4546,7 +4556,7 @@ GameObject:
   - component: {fileID: 831302481}
   m_Layer: 11
   m_Name: Weapon
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4978,7 +4988,7 @@ GameObject:
   - component: {fileID: 863744770}
   m_Layer: 0
   m_Name: Intection
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5016,7 +5026,7 @@ GameObject:
   - component: {fileID: 863950159}
   m_Layer: 0
   m_Name: EventCreateEnemy
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5135,7 +5145,7 @@ GameObject:
   - component: {fileID: 901082460}
   m_Layer: 0
   m_Name: CreateEnemy
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5431,7 +5441,7 @@ GameObject:
   - component: {fileID: 937188956}
   m_Layer: 0
   m_Name: Point Light 2D
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5877,7 +5887,7 @@ GameObject:
   - component: {fileID: 973630706}
   m_Layer: 0
   m_Name: Scientist_B
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6557,6 +6567,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intection (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
 --- !u!1001 &1080432335
@@ -6774,6 +6789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Intection (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
@@ -7029,7 +7049,7 @@ GameObject:
   - component: {fileID: 1228366704}
   m_Layer: 0
   m_Name: CreateEnemy (4)
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7677,7 +7697,7 @@ GameObject:
   - component: {fileID: 1438828189}
   m_Layer: 0
   m_Name: Point Light 2D
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8194,7 +8214,7 @@ GameObject:
   - component: {fileID: 1542044614}
   m_Layer: 8
   m_Name: MinimapUI_Scientist_A
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8275,7 +8295,7 @@ GameObject:
   - component: {fileID: 1542800348}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8679,7 +8699,7 @@ GameObject:
   - component: {fileID: 1605247684}
   m_Layer: 11
   m_Name: Canvas_Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8899,7 +8919,7 @@ GameObject:
   - component: {fileID: 1649193768}
   m_Layer: 0
   m_Name: CreateEnemy (3)
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9491,6 +9511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intection (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
 --- !u!1 &1807824394
@@ -9942,6 +9967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intection (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
 --- !u!4 &1884122785 stripped
@@ -10029,6 +10059,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Food (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9061728404227631892, guid: fb1768e5df684c04c9dbef48e3e479e5,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb1768e5df684c04c9dbef48e3e479e5, type: 3}
 --- !u!1 &1927326878
@@ -10045,7 +10080,7 @@ GameObject:
   - component: {fileID: 1927326880}
   m_Layer: 0
   m_Name: CreateEnemy (6)
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10174,7 +10209,7 @@ GameObject:
   - component: {fileID: 1976310057}
   m_Layer: 11
   m_Name: Point Light 2D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29657,7 +29692,7 @@ GameObject:
   - component: {fileID: 2091564033}
   m_Layer: 0
   m_Name: CreateEnemy (2)
-  m_TagString: Untagged
+  m_TagString: CreateEnemyTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30018,6 +30053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Intection (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
@@ -30393,6 +30433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intection
       objectReference: {fileID: 0}
+    - target: {fileID: 8464075661476826839, guid: 339edab3f3495a244939ac82f626e9bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 339edab3f3495a244939ac82f626e9bf, type: 3}
 --- !u!1001 &9027666299024998045
@@ -30540,6 +30585,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Food
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061728404227631892, guid: fb1768e5df684c04c9dbef48e3e479e5,
+        type: 3}
+      propertyPath: m_TagString
+      value: CreateEnemyTrigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb1768e5df684c04c9dbef48e3e479e5, type: 3}
